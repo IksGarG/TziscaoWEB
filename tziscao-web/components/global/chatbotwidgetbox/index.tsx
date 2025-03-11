@@ -81,7 +81,7 @@ export default function ChatbotWidgetBox() {
 
       {/* Chatbot Window */}
       {isOpen && (
-        <div className="mt-2 flex h-96 w-80 flex-col rounded-lg border border-gray-300 bg-white p-4 shadow-lg">
+        <div className="mt-2 flex h-[28rem] w-80 flex-col rounded-lg border border-gray-300 bg-white p-4 shadow-lg">
           <div className="flex-1 overflow-y-auto">
             {messages.map((msg, index) => (
               <div
@@ -123,6 +123,23 @@ export default function ChatbotWidgetBox() {
             >
               <Send className="text-white" />
             </button>
+          </div>
+          <div className="mt-2 text-xs text-gray-500">
+            This site is protected by reCAPTCHA and the Google{' '}
+            <a
+              href="https://policies.google.com/privacy"
+              className="text-blue-500"
+            >
+              Privacy Policy
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://policies.google.com/terms"
+              className="text-blue-500"
+            >
+              Terms of Service
+            </a>{' '}
+            apply.
           </div>
         </div>
       )}

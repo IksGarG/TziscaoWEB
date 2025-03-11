@@ -16,3 +16,7 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.grecaptcha-badge {
+    visibility: hidden !important;
+  }
