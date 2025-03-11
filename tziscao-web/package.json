@@ -1,0 +1,38 @@
+{
+  "name": "tziscao-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "lucide-react": "^0.479.0",
+    "motion": "^12.4.11",
+    "next": "15.2.1",
+    "openai": "^4.87.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-google-recaptcha": "^2.1.9",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
